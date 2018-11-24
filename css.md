@@ -1,8 +1,10 @@
-#CSS
-##Box Model
-- box-sizing: border-box
-##Layout
-###The display Property
+[README](./README.md)
+
+# CSS
+## Box Model
+* box-sizing: border-box
+## Layout
+### The display Property
 1. display: block
 1. display: inline
 	```html
@@ -24,4 +26,4 @@
     display: table;
 }
 ```
-###flex
+### flex

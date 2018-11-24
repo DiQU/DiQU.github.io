@@ -1,5 +1,4 @@
-#Git
-###
+# Git
 ### clone + 重新命名
 ```git
 $ git clone https://github.com/name/repository.git   [yournewname]
@@ -10,9 +9,9 @@ $ git commit --amend
 ```
 ### git reset HEAD^ 
 放棄之前的commit 將HEAD指回去 ，`^`代表次數
-    -`--soft` staged、worktree 不更動
-    -`--mixed` (預設) staged還原, worktree 不更動 
-    -`--hard` 全部還原
+    * `--soft` staged、worktree 不更動
+    * `--mixed` (預設) staged還原, worktree 不更動 
+    * `--hard` 全部還原
 ### 變更https或SSH
 1. 
 ```git
