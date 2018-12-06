@@ -1,7 +1,5 @@
 # DiQU.github.io
 
-### [css](./css.md)
-
-### [git](./git.md)
-
-### [js](./js.md)
+ [css](./css.md)
+ [git](./git.md)
+ [js](./js.md)

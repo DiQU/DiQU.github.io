@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript code point
 #### 將數字變成字元
 ```js
 String.fromCharCode(65);  // "A"
@@ -45,4 +45,14 @@ for(i=0;i<str.length;i++){
 // 0 25105 "6211" "我"
 // 1 24859 "611b" "愛"
 // 2 20320 "4f60" "你"
+```
+### ES6
+U+0041 (0041代表Code Point編碼位置)
+```js
+'ABC'.codePointAt(0)
+//65
+String.fromCodePoint(0x0041,0x0042,0x0043)
+//"ABC"
+let x = '\u0041\u0042\u0043'
+//"ABC"
 ```

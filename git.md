@@ -23,3 +23,14 @@ origin  https://github.com/USERNAME/REPOSITORY.git (push)
 ```git
 $ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```
+
+###刪除遠端分支
+####1.檢視遠端分支
+`$ git branch -r`
+####2.檢視本地分支
+`$ git branch`
+####3刪除遠端分支
+```git
+git branch -r -d origin/branch-name  
+git push origin :branch-name  
+```
