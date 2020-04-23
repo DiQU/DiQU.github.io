@@ -1,21 +1,25 @@
 ```js
-let a='b'
-x={
-	a:'a',
-	func:function(){console.log(this.a)}
-}
+let a = "b";
+x = {
+  a: "a",
+  func: function () {
+    console.log(this.a);
+  },
+};
 //{a: "a", func: ƒ}
-y={
-	a:'a',
-	func:()=>{console.log(a)}
-}
+y = {
+  a: "a",
+  func: () => {
+    console.log(a);
+  },
+};
 //{a: "a", func: ƒ}
 
-x.func()
+x.func();
 //a
-y.func()
+y.func();
 //b
 
-x.func.apply()
+x.func.apply();
 // b
 ```
